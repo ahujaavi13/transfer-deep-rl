@@ -1,4 +1,5 @@
-###Transfer Learning using Deep Reinforcement Learning (DQNs)
+### Transfer Learning using Deep Reinforcement Learning (DQNs)
+
 This is an exploratory project to investigate the usefulness of transfer learning in the context of Deep Reinforcement Learning. We are using OpenAI Gym’s classic control environments as a tool. Intuition is that knowledge acquired in one environment should aid Agents learning in different environment with similar objectives. We are using two related environments requiring agent to acquire similar knowledge to maximize rewards. Specifically, we are using OpenAI Gym’s Acrobot-v1 and MountainCar-v0 environments, both of which need agent to gain knowledge of momentum. We are using DQN, a simple 3-layer fully connected network (for estimating Q-value) and transferring pre-trained weights from MountainCar-v0 to Acrobot-v1. We explore two techniques, information extraction from weights and changes in architecture. We observed that although there are only minute gains in average reward, the training becomes more stable. Training time stability may be crucial for agents acting in real-world and could decrease side-effects of exploration. Thorough intuition, technical approach (including experiment outcome graphs) are explained in the file ```Project.pdf```.
 
 #### **Folder Description**
