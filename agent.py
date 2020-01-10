@@ -18,8 +18,7 @@ class Agent:
     def __init__(self, s_size, a_size, seed):
         """
 
-        Params
-        ======
+        Parameters:
             s_size (int): dimension of each state
             a_size (int): dimension of each action
             seed (int): random seed
@@ -54,8 +53,7 @@ class Agent:
     def act(self, state, transfer_method, eps=0.):
         """Returns actions for given state as per current policy.
 
-        Params
-        ======
+        Parameters:
             state (array_like): current state
             isTransfer (int): 0 if pre-trained weights to be used, int otherwise
             eps (float): epsilon, for exploration
@@ -75,8 +73,7 @@ class Agent:
     def learn(self, es, transfer_method, gamma):
         """Update parameters based on experiences.
 
-        Params
-        ======
+        Parameters:
             es (Tuple[torch.Tensor]): tuple of (s, a, r, s', done) tuples
             gamma (float): discount factor
         """
