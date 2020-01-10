@@ -16,6 +16,9 @@ This is an exploratory project to investigate the usefulness of transfer learnin
             |----MountainCar-v0.pth # MountainedCar pre-trained parameters
             |----MountainCar-v0.pth # Acrobot pre-trained parameters                            
 ```
+#### Requirements
+Matplotlib, PyTorch, NumPy, OpenAI Gym
+
 #### Replicate the results
 The project by default will run 7 times, each exploring a different way to transfer knowledge between the two environments. To start the training, run the below script:
 
