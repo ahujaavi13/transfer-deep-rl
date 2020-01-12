@@ -6,7 +6,8 @@ This is an exploratory project to investigate the usefulness of transfer learnin
 
 #### **Folder Description**
 ```
-|-----transfer-learning  
+|-----transfer-learning 
+     |----Project.pdf               # Short report describing the experimentation.
      |----mountain-acrobot.py       # Setup - Run this file to reproduce results
      |----agent.py                  # Agent class
      |----experience_replay.py      # Experience replay buffer
